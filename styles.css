@@ -1,0 +1,53 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: black;
+    overflow: hidden;
+}
+
+.heading {
+    font-family: 'Julius Sans One', sans-serif;
+    position: absolute;
+    top: 280px;
+    left: 330px;
+    text-align: center;
+    z-index: 100;
+    display: block;
+    color: white;
+    font-size: 50px;
+}
+
+.sub-heading {
+    font-family: 'Julius Sans One', sans-serif;
+    position: absolute;
+    top: 380px;
+    left: 355px;
+    text-align: center;
+    z-index: 100;
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+.button-wrapper {
+    font-family: 'Julius Sans One', sans-serif;
+    position: absolute;
+    top: 450px;
+    left: 440px;
+    text-align: center;
+    z-index: 100;
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+.button {
+    border: 2px solid white;
+    padding: 3px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
